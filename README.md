@@ -83,11 +83,13 @@ def build_2_model(optimizer):
     grid_model.compile(loss = 'mse', optimizer = optimizer)
     return grid_model
 
-grid_model = KerasRegressor(build_fn = build_2_model, verbose = 1, validation_data = (testX, testY))
+grid_model = KerasRegressor(build_fn = build_2_model,
+                            verbose = 1, validation_data = (testX, testY))
 ```
 ```
 # Define values for hyperparameters
-parameters = {'batch_size' : [16, 20, 26], 'epochs' : [10, 15, 20], 'optimizer' : ['adam', 'Adadelta']}
+parameters = {'batch_size' : [16, 20, 26],
+              'epochs' : [10, 15, 20], 'optimizer' : ['adam', 'Adadelta']}
 grid_search  = GridSearchCV(estimator = grid_model, param_grid = parameters, cv = 4)
 ```
 ```
@@ -102,16 +104,11 @@ apple_model2 = grid_search.best_estimator_.model
 
 ## Model Evalution 📈
 
-Step 5: Evaluating Model Performance
-After training the model, we can evaluate its performance on the test set using evaluation metrics such as:
-Mean Absolute Error (MAE)
-Root Mean Absolute Error (MAPE)
-R-Squared (R²)
 
 The predicted stock prices can be compared to actual prices to see how well the model performs. Additionally, visualizing the results using line plots helps in understanding the accuracy of the predictions over time.
 
 
-IMAGES
+![image2](https://github.com/SevilayMuni/Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks/blob/main/Apple-Stock-LSTM-Model/visuals-apple-stock-model/2ndModel-Actual-Predicted-Price.png)
 
 | Model | MAE | MAPE | R2 |
 | --- | --- | --- | --- |
