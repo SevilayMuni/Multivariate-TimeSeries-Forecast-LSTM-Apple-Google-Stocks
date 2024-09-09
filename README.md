@@ -108,7 +108,7 @@ apple_model2 = grid_search.best_estimator_.model
 The predicted stock prices can be compared to actual prices to see how well the model performs. Additionally, visualizing the results using line plots helps in understanding the accuracy of the predictions over time.
 
 
-![image2](https://github.com/SevilayMuni/Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks/blob/main/Apple-Stock-LSTM-Model/visuals-apple-stock-model/2ndModel-Actual-Predicted-Price.png =100x20)
+![image2](https://github.com/SevilayMuni/Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks/blob/main/Apple-Stock-LSTM-Model/visuals-apple-stock-model/2ndModel-Actual-Predicted-Price.png=100x20)
 
 | Model | MAE | MAPE | R2 |
 | --- | --- | --- | --- |
