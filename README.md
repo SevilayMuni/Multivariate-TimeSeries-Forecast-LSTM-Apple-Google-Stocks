@@ -177,12 +177,3 @@ Thank you for visiting my project repository. Happy and accurate predicting! ðŸ’
 
 - Wadaskar, G., Bopanwar, V., Urade, P., Upganlawar, S., & Shende, P. R. (2023). Handwritten Character Recognition. International Journal for Research in Applied Science and Engineering Technology. https://doi.org/10.22214/ijraset.2023.57366
 
-
-
-# Multivariate-Time-Series-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-Time-Series-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks
-# Multivariate-TimeSeries-Forecast-LSTM-Apple-Google-Stocks
